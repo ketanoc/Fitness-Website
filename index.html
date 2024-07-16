@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitness Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1 class="logo-head">
+          <img src="images/logo.png" alt="logo" class="logo" />
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="signup.html" class="btn-signup">Sign Up</a></li>
+          </ul>
+        </nav>
+
+      </div>
+    </header>
+
+    <section class="cover">
+      <div class="cover-image">
+        <!-- Background image will be set in CSS -->
+      </div>
+      <div class="overlay"></div>
+      <div class="cover-text">
+        <h2>Your Journey to <span class="golden">Fitness</span> Begins Here</h2>
+        <p>
+          Transform your body and mind with our expert guidance and world-class
+          facilities.
+        </p>
+        <a href="#course" class="btn-course">Start Course</a>
+      </div>
+    </section>
+
+    <section id="course" class="section">
+      <div class="course-section">
+        <h2>Our Courses</h2>
+        <div class="course-list">
+          <div class="course">
+            <img src="images/women.jpg" alt="Course Image" />
+            <div class="course-details">
+              <h3>Women's course</h3>
+              <p>
+                Lorem Ipsum is simply dummy themes industryes psum has been them
+                industry the loep into type setting.
+              </p>
+              <a href="#" class="btn">Enroll Now</a>
+            </div>
+          </div>
+          <div class="course">
+            <img src="images/basic.jpg" alt="Course Image" />
+            <div class="course-details">
+              <h3>Basic course</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum
+                cumque sit quia harum repellat voluptates.
+              </p>
+              <a href="#" class="btn">Enroll Now</a>
+            </div>
+          </div>
+          <div class="course">
+            <img src="images/men.jpg" alt="Course Image" />
+            <div class="course-details">
+              <h3>Men's course</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum
+                cumque sit quia harum repellat voluptates.
+              </p>
+              <a href="#" class="btn">Enroll Now</a>
+            </div>
+          </div>
+          <!-- Add more courses as needed -->
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="about-me-section">
+        <div class="profile-image">
+          <img src="images/trainer image.jpg" alt="Profile Picture" />
+        </div>
+        <div class="bio">
+          <h2>About Me</h2>
+          <p>
+            Hello! I'm John Doe, a certified fitness trainer passionate about
+            helping people achieve their fitness goals. With over 10 years of
+            experience, I specialize in strength training, HIIT, and nutrition
+            counseling. My mission is to inspire and empower individuals to live
+            healthier lives.
+          </p>
+          <p>
+            Feel free to explore my website for workout plans, nutrition tips,
+            and motivational content. Let's embark on this fitness journey
+            together!
+          </p>
+          <div class="social-links">
+            <a href="#"
+              ><img src="images/facebook_1384005.png" alt="Facebook"
+            /></a>
+            <a href="#"
+              ><img src="images/instagram_1384015.png" alt="Instagram"
+            /></a>
+            <a href="#"
+              ><img src="images/twitter_5969020.png" alt="Twitter"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="contact-section">
+        <h2>Contact Us</h2>
+        <div class="contact-form-container">
+          <form action="#" method="POST" class="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="contact-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 footer-section">
+                    <h3 class="footer-heading">About Us</h3>
+                    <p>We are committed to helping you achieve your fitness goals. Follow us for tips, motivation, and updates.</p>
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 footer-section">
+                    <h3 class="footer-heading">Contact Us</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Fitness St, City, Country</li>
+                        <li><i class="fas fa-envelope"></i> info@fitnesswebsite.com</li>
+                        <li><i class="fas fa-phone"></i> +1 (123) 456-7890</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 footer-section">
+                    <h3 class="footer-heading">Subscribe to Our Newsletter</h3>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <div class="container-foot">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <p>&copy; 2024 Fitness Website. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <ul class="footer-links">
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
